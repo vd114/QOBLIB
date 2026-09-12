@@ -20,7 +20,7 @@ This directory contains the submission for the problem **C125-9**.
 | # Continuous Variables | 0 |
 | # Non-Zero Coefficients | 912 |
 | Coefficients Type | integer |
-| Coefficients Range | [-1.0, 2.0] |
+| Coefficients Range | {-1.0, 2.0} |
 | ====== |  |
 | Workflow | The solver iteratively applies classical reductions to fix provably optimal vertices, then runs hardware-aware QAOA to estimate marginal probabilities for the remaining vertices. It selects the highest-marginal vertex, adds it to the independent set, removes its closed neighborhood, and repeats on the reduced graph. When no vertices remain, the accumulated set is returned as the MIS. |
 | Algorithm Type | Stochastic |
